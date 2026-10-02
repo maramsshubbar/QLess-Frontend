@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router";
 import { ArrowRight, MagnifyingGlass, Storefront, X } from "@phosphor-icons/react";
 import { getBusinesses } from "../../services/businessService";
 import { getCategories } from "../../services/categoryService";
