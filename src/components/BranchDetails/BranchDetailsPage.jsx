@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router";
 import { Clock, MapPin, Megaphone, Phone } from "@phosphor-icons/react";
 import { getBusiness, getBusinessAnnouncements } from "../../services/businessService";
 import {
